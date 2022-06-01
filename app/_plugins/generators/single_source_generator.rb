@@ -57,7 +57,7 @@ module SingleSource
   end
 
   class SingleSourcePage < Jekyll::Page
-    def initialize(site, src, dest, product, release, version, nav) # rubocop:disable Lint/MissingSuper, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/AbcSize, Metrics/ParameterLists, Metrics/PerceivedComplexity
+    def initialize(site, src, dest, product, release, version, nav) # rubocop:disable Lint/MissingSuper, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/AbcSize, Metrics/ParameterLists
       # Configure variables that Jekyll depends on
       @site = site
 
