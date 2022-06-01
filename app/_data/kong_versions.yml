@@ -362,7 +362,7 @@
   lua_doc: true
 -
   release: "2.8.x"
-  ee-version: "2.8.1.0"
+  ee-version: "2.8.1.1"
   ce-version: "2.8.1"
   edition: "gateway"
   luarocks_version: "2.5.1-0"
@@ -426,7 +426,7 @@
   edition: "deck"
 -
   release: "1.12.x"
-  version: "1.12.0"
+  version: "1.12.1"
   edition: "deck"
 -
   release: "1.0.x"

@@ -678,7 +678,7 @@ $("a[data-filter]").on("keypress", function(e) {
 // Tooltips for badges
 jQuery(function () {
     $('.badge.enterprise')
-      .append( '<div class="tooltip"><span class="tooltiptext">Available with Enterprise subscription</span></div>' );
+      .append( '<div class="tooltip"><span class="tooltiptext">Available with Enterprise subscription - <a target="_blank" href="https://konghq.com/contact-sales">Contact Sales</a></span></div>' );
     $('.badge.plus')
       .append( '<div class="tooltip"><span class="tooltiptext">Available with Plus subscription (Konnect Cloud)</span></div>' );
     $('.badge.free')
@@ -687,4 +687,6 @@ jQuery(function () {
       .append( '<div class="tooltip"><span class="tooltiptext" >Available in Kong open-source only</span></div>' );
     $('.badge.dbless')
       .append( '<div class="tooltip"><span class="tooltiptext">Compatible with DB-less deployments</span></div>' );
+    $('.badge.konnect')
+      .append( '<div class="tooltip"><span class="tooltiptext">Available in the Konnect Cloud app</span></div>' );
 });
